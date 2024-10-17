@@ -33,6 +33,7 @@ header{
 header img{
     width: 80px;
     height: 70px;
+    cursor: pointer;
 }
 
 header button{
@@ -46,7 +47,7 @@ header button{
 }
 
 main{
-    width: 2000px;
+    width: 1000px;
     margin: auto;
     background-color: #fafafa;
 }
@@ -64,6 +65,11 @@ main{
     gap: 50px;
     
 }
+
+.header2 img{
+    width: 160%;
+}
+
 .color{
     color: white;
     background-color: #eb552d;
@@ -111,6 +117,7 @@ main{
     justify-content: center;
     gap: 20px;
     margin: 150px;
+    max-width: 70vw;
 }
 
 .infos{
