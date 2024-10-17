@@ -70,17 +70,17 @@ main{
     width: 160%;
 }
 
-.color{
+span{
     color: white;
     background-color: #eb552d;
-    width: 350px;
+    padding: 2px;
     margin: auto;
 }
 
 .quadro{
     display: flex;
     justify-content: center;
-    gap: 250px;
+    gap: 20%;
     padding: 150px 0; 
 }
 
@@ -159,17 +159,26 @@ footer button{
     
 }
 
-@media screen and (max-width: 1088px) {
+@media screen and (max-width: 768px) {
     header{
-        gap: 500px;
+        gap: 150px;
     }
 
     .header2 img{
         width: 100%;
     }
-    
-    footer{
-        padding: 20px;
+
+    main{
+        width: 95vw;
+    }
+
+    .quadro{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 150px;
+        padding: 150px 0; 
     }
     
     .videos{
@@ -180,5 +189,10 @@ footer button{
         gap: 20px;
         margin: 150px;
         max-width: 70vw;
+    }
+
+    footer{
+        gap:150px;
+        padding: 20px;
     }
 }  
