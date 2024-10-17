@@ -159,7 +159,7 @@ footer button{
     
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1088px) {
     header{
         gap: 500px;
     }
