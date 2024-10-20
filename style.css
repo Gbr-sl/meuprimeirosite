@@ -229,7 +229,7 @@ footer button{
 
 @media screen and (max-width: 1024px) {
     header{
-        gap: 150px;
+        gap: 80px;
     }
 
     .header2 img{
@@ -263,7 +263,7 @@ footer button{
     }
 
     footer{
-        gap:150px;
+        gap:80px;
         padding: 20px;
     }
 }  
